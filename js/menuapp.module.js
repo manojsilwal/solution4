@@ -1,0 +1,3 @@
+	// body...
+	var app = angular.module('menuApp',['data','ui.router']);
+
