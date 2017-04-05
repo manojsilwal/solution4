@@ -7,7 +7,7 @@
 	RouteConfig.$inject = ['$urlRouterProvider','$stateProvider'];
 
 	function RouteConfig($urlRouterProvider, $stateProvider){
-		$urlRouterProvider.otherwise('/items');
+		$urlRouterProvider.otherwise('/categories');
 		
 		$stateProvider
 		.state('items',{
